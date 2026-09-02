@@ -1,0 +1,131 @@
+:root {
+  --octofit-ink: #143642;
+  --octofit-teal: #0b7285;
+  --octofit-mint: #e8f5f2;
+  --octofit-citrus: #d8f171;
+  --octofit-coral: #ef8354;
+  --octofit-sky: #d8eef2;
+}
+
+.app-shell {
+  background: linear-gradient(135deg, #f6fbfa 0%, #eef4f7 55%, #fdf7ed 100%);
+  color: var(--octofit-ink);
+}
+
+.app-navbar {
+  background: linear-gradient(90deg, #143642 0%, #0b7285 100%);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0;
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: var(--octofit-citrus);
+}
+
+.navbar-brand-logo {
+  width: 42px;
+  height: 42px;
+  border: 2px solid var(--octofit-citrus);
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-nav .nav-link {
+  color: #d8eef2;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--octofit-citrus);
+}
+
+.navbar-nav .nav-link.active {
+  color: #fff;
+  border-bottom-color: var(--octofit-citrus);
+  font-weight: 700;
+}
+
+.resource-card {
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 12px 32px rgba(20, 54, 66, 0.1);
+}
+
+.resource-card .card-header {
+  background: var(--octofit-mint);
+  border-bottom-color: #cfe6e0;
+}
+
+.resource-card h1,
+.resource-card h2 {
+  color: var(--octofit-teal);
+  font-weight: 700;
+}
+
+.resource-card .btn-primary {
+  --bs-btn-bg: var(--octofit-teal);
+  --bs-btn-border-color: var(--octofit-teal);
+  --bs-btn-hover-bg: #075b6a;
+  --bs-btn-hover-border-color: #075b6a;
+  --bs-btn-active-bg: #075b6a;
+  --bs-btn-active-border-color: #075b6a;
+}
+
+.resource-card .btn-outline-primary {
+  --bs-btn-color: var(--octofit-teal);
+  --bs-btn-border-color: var(--octofit-teal);
+  --bs-btn-hover-bg: var(--octofit-teal);
+  --bs-btn-hover-border-color: var(--octofit-teal);
+}
+
+.resource-card .btn-secondary {
+  --bs-btn-bg: var(--octofit-coral);
+  --bs-btn-border-color: var(--octofit-coral);
+  --bs-btn-hover-bg: #d96d42;
+  --bs-btn-hover-border-color: #d96d42;
+}
+
+.resource-card .link-primary {
+  color: #087a8c !important;
+  font-weight: 600;
+}
+
+.resource-card .link-primary:hover {
+  color: var(--octofit-coral) !important;
+}
+
+.table > :not(caption) > * > * {
+  vertical-align: middle;
+}
+
+.table thead th {
+  background-color: var(--octofit-ink);
+  color: #fff;
+  font-size: 0.78rem;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.table-hover > tbody > tr:hover > * {
+  --bs-table-accent-bg: var(--octofit-sky);
+  color: var(--octofit-ink);
+}
+
+.table tbody tr:nth-child(even) > * {
+  background-color: #f8fcfb;
+}
+
+.modal-content {
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 18px 48px rgba(20, 54, 66, 0.25);
+}
+
+.modal-header {
+  background-color: var(--octofit-mint);
+}
